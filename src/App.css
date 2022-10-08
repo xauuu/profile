@@ -1,0 +1,23 @@
+.home-logo {
+  user-select: none;
+  -webkit-animation: action 1.5s infinite alternate;
+  animation: action 1.5s infinite alternate;
+}
+
+@-webkit-keyframes action {
+  0% {
+    transform: translateY(30px);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes action {
+  0% {
+    transform: translateY(30px);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
